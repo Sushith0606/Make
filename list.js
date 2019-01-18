@@ -102,7 +102,7 @@ function sendEmail() {
                 label = items[j].children[0].innerHTML;
                 com1 = items[j].children[2].value;
                // title = items[j].parentElement.previousElementSibling
-                bodyTemplate = bodyTemplate  + value + " " + label + '%0A';
+                bodyTemplate = bodyTemplate  +"Quantity: "+ value + "          "+"Product: " + label +"                     " +"Comments: "+ com1 +'%0A';
             }
         }
          bodyTemplate = bodyTemplate  +'%0A';
