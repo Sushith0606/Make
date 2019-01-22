@@ -6,14 +6,14 @@
   height: 100%;
 }
 #pp img {
-  position: absolute; 
+  position: centre; 
   top: 0; 
   left: 0; 
   right: 0; 
   bottom: 0; 
   margin: auto; 
-  min-width: 20%;
-  min-height: 20%;
+  min-width: 50%;
+  min-height: 50%;
 }
 
 img{
